@@ -1,0 +1,19 @@
+{
+  "name": "web-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexis-rudy/web-services.git"
+  },
+  "author": "Alexis Rudy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexis-rudy/web-services/issues"
+  },
+  "homepage": "https://github.com/alexis-rudy/web-services#readme"
+}
