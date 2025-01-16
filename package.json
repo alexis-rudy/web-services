@@ -1,10 +1,15 @@
 {
   "name": "web-services",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
+    "lint": "eslint *.js src/**/*.js",
+    "start": "node server.js",
+    "build": "vite build  --emptyOutDir",
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/alexis-rudy/web-services/issues"
   },
-  "homepage": "https://github.com/alexis-rudy/web-services#readme"
+  "homepage": "https://github.com/alexis-rudy/web-services#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "lint": "^0.8.19",
+    "prettier": "^3.4.2",
+    "vite": "^6.0.7"
+  }
 }
